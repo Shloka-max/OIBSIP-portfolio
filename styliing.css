@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+}
+.portbar{
+    height:150px;
+    width: 100%;
+    background-color: #F7F7FF;
+    color: #C03221;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portanc a{
+    color: #C03221;
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-right: 70px;
+}
+.portbar a:hover{
+    text-shadow: 10px 3px 6px black;
+}
+.portbar p{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-right: 600px;
+    text-shadow: 10px 3px 6px black;
+}
+.portanc{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.about{
+    height: 300px;
+    width: vp;
+    background-color: #F2D0A4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 50%;
+    background-image: url("self-image.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.aboutcontent{
+    height:150px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.aboutcontent p{
+    font-size: 1.25rem;
+    font-family: monospace;
+    text-align: center;
+}
+.heading h3{
+    margin-bottom: 200px;
+    transform: translateX(650px);
+    height:40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #545E75;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.educat{
+    height: 70px;
+    width: 100%;
+    background-color: #3F826D; 
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.edubrand{
+    height:70px;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: whitesmoke;
+    transform: translate(100px,20px);
+}
+.graduation{
+    height: 300px;
+    width: 100%;
+    background-color: #3F826D;
+}
+.gradlogo{
+    height: 40px;
+    width: 200px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.gradlogo p{
+    margin-left: 5px;
+}
+.gardcontent{
+    height:auto;
+    width: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-family: monospace;
+    color: whitesmoke;
+    margin-left: 200px;
+}
+.coll-status{
+    height:auto;
+    width: auto;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-left: 10px;
+}
+.sgpa-meter{
+    text-align: left;
+    margin-left: 10px;
+}
+/* section-intern */
+.Intern{
+    height: 300px;
+    width: 100%;
+    background-color: #3F826D;
+    transform: translateY(-100px);
+}
+.internlogo{
+    height: 40px;
+    width: 200px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.internlogo p{
+    margin-left: 10px;
+}
+.interncontent{
+    height:auto;
+    width: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-family: monospace;
+    color: whitesmoke;
+    margin-left: 200px;
+}
+.intern-status{
+    height:auto;
+    width: auto;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-left: 10px;
+}
+.intern-meter{
+    text-align: left;
+    margin-left: 10px;
+}
+/* matriculation */
+.mat{
+    height: 300px;
+    width: 100%;
+    background-color: #3F826D;
+    transform: translateY(-100px);
+}
+.matlogo{
+    height: 40px;
+    width: 200px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.matlogo p{
+    margin-left: 10px;
+}
+.matcontent{
+    height:auto;
+    width: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-family: monospace;
+    color: whitesmoke;
+    margin-left: 200px;
+}
+.mat-status{
+    height:auto;
+    width: auto;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-left: 10px;
+}
+.mat-meter{
+    text-align: left;
+    margin-left: 10px;
+}
+/* skills-section */
+.skills{
+    height: 70px;
+    width: 100%;
+    background-color: ghostwhite;
+    transform:translateY(-100px);
+}
+.skill-head{
+    height: 70px;
+    width: 250px;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    transform: translateX(80px);
+}
+.skills{
+    display: flex;
+    justify-content: center;    
+}
+
+.skillslogo{
+    height: 200px;
+    width: 200px;
+}
+.box{
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box:hover{
+    border: 6px solid #C03221;
+    background-color: #545e75;
+    color: whitesmoke;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+}
+.skillboxes{
+    height: 200px;
+    width: vp;
+    transform: translateY(-100px);
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* contact section */
+.contactus{
+    height: 50px;
+    width: 100%;
+    background-color: #C03221;
+    transform: translateY(-100px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactus a{
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    height:auto;
+    width: auto;
+    margin-left: 100px;
+}
